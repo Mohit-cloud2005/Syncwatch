@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  @apply bg-[#0a0a0a] text-white;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
